@@ -1,1 +1,16 @@
 @import url(global.css);
+
+.primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+}
